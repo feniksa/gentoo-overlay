@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="asm">Enable assembly-optimized cryptographic implementations</flag>
+		<flag name="debug">Enable debugging support and diagnostic output</flag>
+		<flag name="dtls">Enable Datagram Transport Layer Security (DTLS) support</flag>
+		<flag name="dtls13">Enable DTLS 1.3 protocol support</flag>
+		<flag name="dtlscid">Enable DTLS Connection ID (CID) support</flag>
+		<flag name="examples">Build example applications</flag>
+		<flag name="openssl">Enable extended OpenSSL compatibility APIs</flag>
+		<flag name="psk">Enable Pre-Shared Key (PSK) authentication support</flag>
+		<flag name="quic">Enable QUIC protocol support</flag>
+		<flag name="scrypt">Enable the scrypt password-based key derivation function</flag>
+		<flag name="static-libs">Build static libraries</flag>
+		<flag name="test">Enable the package test suite</flag>
+	</use>
+</pkgmetadata>
